@@ -1,11 +1,11 @@
-package lektion3classes;
+package lektion5.konstruktorer;
 
 import lektion4.oop.Car;
 
 public class CarGame {
 
 	public static void main(String[] args) {
-        Car jonasBil = new Car("blue");
+        Car jonasBil = new Car();
         
         System.out.println(jonasBil.getSpeed());
         
