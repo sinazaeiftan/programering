@@ -5,7 +5,7 @@ import lektion4.oop.Car;
 public class CarGame {
 
 	public static void main(String[] args) {
-        Car jonasBil = new Car();
+        Car jonasBil = new Car(null);
         
         System.out.println(jonasBil.getSpeed());
         
